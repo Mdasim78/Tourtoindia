@@ -5,6 +5,7 @@
     text-align: center;
     text-shadow: 3px 4px 4px rgb(248, 98, 98);
     font:normal small-caps bold 60px/40px 'Kumar One', cursive;
+    position: sticky; top:0px;
 
 }
 .footer{
@@ -16,7 +17,7 @@
 }
 
 .nav{
-    float:left;width: 20%;padding:0px;margin-top: -16px;
+    float:left;width: 20%;padding:0px;margin-top: -16px;position: sticky;top: 38px;
 }
 ul{float:left;clear:left;width:100%;padding: 2px;}
 ul li{background-color: wheat;padding:15px;margin:10px 0px;border-radius: 10px;text-align: center;font-size: 25px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
