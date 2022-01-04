@@ -1,4 +1,5 @@
 *{box-sizing: border-box;}
+body{padding: 0px;}
 .header{
     background-color: darkseagreen;
     padding: 20px;color: white;
@@ -17,14 +18,14 @@
 }
 
 .nav{
-    float:none;width: auto;padding:0px;margin-top: -16px;position: sticky;top: 38px;
+    float:none;width: auto;padding:0px;position: sticky;top: 38px;
 }
-ul{float:left;clear:left;width:100%;padding: 2px;}
+ul{width:100%;background-color:rgb(255, 255, 255);list-style-type: none;padding-left: 0px;padding-top: 0px;border-radius: 12px;}
 ul li{background-color: wheat;padding:15px;margin:10px 0px;border-radius: 10px;text-align: center;font-size: 25px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 ul li:hover{background-color: rgb(207, 186, 147);}
 .content{float: left;width: 80%;padding:10px;text-align: justify;font-size: 25px;font-family: 'Times New Roman', Times, serif;}
 .active{background-color: salmon;}
-@media screen and (min-width:650px) {
+@media screen and (min-width:850px) {
     .nav {float: left;width: 20%;}
     
 }
